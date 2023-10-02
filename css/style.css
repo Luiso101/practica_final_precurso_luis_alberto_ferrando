@@ -62,7 +62,7 @@ header .container {
     justify-content: space-between;
     flex-wrap: wrap;
     font-size: 1.75em;
-    padding: 0em 1.25em;
+    padding: 0rem 1.25rem;
 
 
 }
@@ -102,6 +102,15 @@ header nav.container .menu .active {
 }
 
 /*fin header*/
+/*inicio del footer*/
+footer .container {
+    padding: 0rem 1.25rem;
+    color: var(--secondaryColor);
+
+
+}
+
+/*final de footer*/
 
 /*mediaqueries*/
 @media(min-width: 48rem) {
@@ -133,7 +142,7 @@ header nav.container .menu .active {
     }
 
     header nav.container .menu a {
-        padding: 0rem calc(var(--space)*1.25) 0 0;
+        padding: 0rem calc(var(--space)* 1.25) 0 0;
 
     }
 
@@ -143,5 +152,10 @@ header nav.container .menu .active {
 @media(min-width: 87.5rem) {
     header .container {
         padding: 0em;
+    }
+
+    footer .container {
+        padding: 0em;
+
     }
 }
