@@ -112,6 +112,33 @@ footer .container {
 
 /*final de footer*/
 
+
+/*inicio hero*/
+.hero {
+    background-image: url(../images/fondo.png);
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 3em;
+    line-height: 1.4em;
+}
+
+
+
+/*final hero*/
+
+
+
+
+
 /*mediaqueries*/
 @media(min-width: 48rem) {
     header nav.container #botonmenu {
