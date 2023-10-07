@@ -114,6 +114,8 @@ footer .container {
 
 
 /*inicio hero*/
+
+
 .hero {
     background-image: url(../images/fondo.png);
     height: 80vh;
@@ -203,6 +205,114 @@ main section h2 {
     font-size: 3em;
     padding-bottom: 2.5em;
 }
+
+main #team .rombo article:first-child {
+    background-image: url(../images/annie.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 9rem;
+    width: 9rem;
+    margin-left: 50px;
+
+}
+
+main #team .rombo article:nth-child(2) {
+    background-image: url(../images/carina.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 9rem;
+    width: 9rem;
+    margin-left: 100px;
+
+}
+
+main #team .rombo article:nth-child(3) {
+    background-image: url(../images/greg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 9rem;
+    width: 9rem;
+    margin-left: 100px;
+}
+
+
+main #team .rombo article:nth-child(4) {
+    background-image: url(../images/../images/russell.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 9rem;
+    width: 9rem;
+    margin-left: 100px;
+
+}
+
+main #team .rombo article:nth-child(5) {
+    background-image: url(../images/../images/pete.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 9rem;
+    width: 9rem;
+    margin-left: 100px;
+
+}
+
+main #team .rombo article:nth-child(6) {
+    background-image: url(../images/olga.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 9rem;
+    width: 9rem;
+    margin-left: 100px;
+
+}
+
+main #team .rombo article:nth-child(7) {
+    background-image: url(../images/jane.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 9rem;
+    width: 9rem;
+    margin-left: 100px;
+
+}
+
+main #team .rombo article:last-child {
+    background-image: url(../images/roo.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 9rem;
+    width: 9rem;
+    margin-left: 100px;
+}
+
+div .photos {
+    margin-left: 240px;
+    margin-right: 250px;
+}
+
+main #team .rombo article {
+    display: inline-block;
+    padding-bottom: 200px;
+    filter: grayscale(100%);
+    transition: 1s;
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+
+
+main #team .rombo article:hover {
+    filter: grayscale(0%);
+    transform: rotate(0deg);
+
+
+
+
+}
+
+
+
+
+
 
 
 
