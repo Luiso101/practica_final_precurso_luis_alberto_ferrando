@@ -321,8 +321,8 @@ div.phrase {
     justify-content: center;
     align-items: center;
     background-color: rgba(115, 113, 113, 0.091);
-    width: 700px;
-    height: 100px;
+    width: 43.75em;
+    height: 6.25em;
     box-sizing: border-box;
 }
 
@@ -338,7 +338,7 @@ div .work {
 div .regilla {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 100px;
+    gap: 6.25rem;
 
     width: 50rem;
     height: 50rem;
@@ -348,7 +348,7 @@ div .regilla {
 
 ul.fatal li {
     display: inline-flex;
-    padding: 50px;
+    padding: 3.125rem;
 
 }
 
