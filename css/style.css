@@ -309,6 +309,35 @@ main #team .rombo article:hover {
 
 }
 
+div .contieneFrase {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.phrase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(115, 113, 113, 0.091);
+    width: 700px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+div .icono {
+    margin-left: 15%;
+
+
+
+}
+
+div .regilla {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 
 
